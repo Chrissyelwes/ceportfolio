@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 *, *:before, *:after 
 { box-sizing: border-box; }
 
@@ -17,6 +16,10 @@ body {
   line-height: 1.6;
   background: #FFF;
   overflow-x: hidden;
+  background-image: url("images/headerbg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
 }
 
 /* Style the header links */
