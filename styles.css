@@ -11,12 +11,36 @@ html { font-size: 18px; }
 { box-sizing: border-box; }
 
 body {
-  color: #6fb3b8ff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.2em;
-  line-height: 1.6;
-  background: #f6f6f2ff;
-  overflow-x: hidden;
+    margin: 5px;
+    padding: 10px;
+    color: #6fb3b8ff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    background: #f6f6f2ff;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: teal;
+    font-size: 25px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+hr {
+    margin: auto;
+    width: 150px;
+    border: 1px solid #ec9a29ff;
+    border-radius: 50px;
+    justify-content: center;
 }
 
 /* Header CSS */
@@ -176,6 +200,31 @@ label a {
   
 }
 /* Hamburger nav css */
+
+/* image slider css */
+#section-a {
+    padding: 20px;
+    text-align: center;
+}
+
+.slider {
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    display: flex;
+    /* allow for scrolling */
+    overflow-x: auto;
+    /* make it smooth on iOS */
+    -webkit-overflow-scrolling: touch;
+}
+
+.slider > div {
+    flex-shrink: 0;
+    width: 100%;
+    height: 300px;
+}
+
 
 @media all and (max-width: 800px) {
     .navigation {
