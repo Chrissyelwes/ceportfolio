@@ -437,6 +437,7 @@ label a {
     margin-top: 0px;
     margin-bottom: 10px;
     text-align: center;
+    align-items: center;
 }
 
 
@@ -469,7 +470,7 @@ label a {
   padding: 20px;  
 }
 
-#section-c .button {
+.button {
   background-color: #388087ff
   border-radius: 25px;
   border: none;
